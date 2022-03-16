@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(210, 180, 140);
+}
+
+#tittle{
+    text-align: center;
+    font-size: 3em;
+}
+
+#image{
+    max-width: 1000px;
+    max-height: 563px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#sub-tittle{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#about-step{
+    text-align: center;
+    font-size: 1.8em;
+}
+
+#job{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#tittle-book{
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 50px;
+}
+
+#name-book{
+    font-size: 1.4em;
+}
+
+#text-book{
+    font-size: 1.2em;
+}
