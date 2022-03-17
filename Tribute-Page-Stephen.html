@@ -1,37 +1,65 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css">
-        <title>page-tribut</title>
-    </head>
-    <body>
-        <div class="page" id="tribute">
-        <h1 id="tittle">A Tribute Page of Stephen Hawking</h1>
-        <h3 id="sub-tittle">Famous physicist, professor, and author</h3>
-        <img id="image"
-        src="https://thumb.viva.co.id/media/frontend/thumbs3/2013/09/18/222489_stephen-hawking_665_374.jpg"
-        alt="JavaScript screenshot.png"
-      />
-    </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <div class="" id="">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- CSS file-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Stephen Hawking</title>
+  </head>
+  <body>
+
+    <!--  Start Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light bg-dark shadow-lg">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Books</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navigation bar -->
+
+    <div class="container" id="">
         <h2 id="about-step" >About Stephen Hawking</h2>
+        <img class="container" id="pict" src="/img/hawking.jpg" alt="" width="800px">
         <p id="job">Stephen William Hawking CH CBE FRS FRSA (/ˈstiːvən ˈhɔːkɪŋ/ ( simak); 8 Januari 1942 – 14 Maret 2018) adalah fisikawan teoretis, kosmologi, pengarang, dan Direktur Penelitian Centre for Theoretical Cosmology di Universitas Cambridge.[14][15] Karya-karya ilmiahnya meliputi kolaborasi bersama Roger Penrose tentang teorema singularitas gravitasi dalam kerangka relativitas umum dan prediksi teori bahwa lubang hitam mengeluarkan radiasi (biasa disebut radiasi Hawking). Hawking adalah orang pertama yang memaparkan teori kosmologi yang dijelaskan dengan menggabungkan teori relativitas umum dan mekanika kuantum. Ia adalah pendukung interpretasi multidunia teori mekanika kuantum.[16][17]</p>
     </div>
 
-    <div id="books">
-        <h2 id="tittle-book">Stephen Hawking Books</h2>
+    <div class="container" id="books">
+        <h2 id="tittle-film">Stephen Hawking Film</h2>
         <ul>
             <li>
-                <b id="name-book">A Brief Story of Time</b>
-                <P>From the Big Bang to Black Holes (bahasa Indonesia: Sejarah Singkat Waktu) adalah buku sains populer yang ditulis oleh ahli fisika asal Britania Raya, Stephen Hawking, dan pertama kali diterbitkan oleh Bantam Dell Publishing Group pada tahun 1988.[1] Buku ini laris terjual lebih dari 10 juta kopi.[2] Buku ini juga masuk daftar buku laris Sunday Times London selama lebih dari empat tahun.[3]</p>
+                <b id="name-film">A Brief Story of Time</b>
+                <P id="about-film">From the Big Bang to Black Holes (bahasa Indonesia: Sejarah Singkat Waktu) adalah buku sains populer yang ditulis oleh ahli fisika asal Britania Raya, Stephen Hawking, dan pertama kali diterbitkan oleh Bantam Dell Publishing Group pada tahun 1988.[1] Buku ini laris terjual lebih dari 10 juta kopi.[2] Buku ini juga masuk daftar buku laris Sunday Times London selama lebih dari empat tahun.[3]</p>
+            </li>
+            <li>
+                <b id="name-film">Hawking</b>
+                <P id="about-film">Hawking adalah film televisi BBC tentang tahun-tahun awal Stephen Hawking sebagai mahasiswa PhD di Universitas Cambridge , mengikuti pencariannya untuk awal waktu , dan perjuangannya melawan penyakit saraf motorik . Film ini dibintangi oleh Benedict Cumberbatch sebagai Hawking dan ditayangkan perdana di Inggris pada April 2004.</p>
             </li>
         </ul>
-
     </div>
 
-    </body>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
 </html>
