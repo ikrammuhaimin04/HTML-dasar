@@ -2,20 +2,17 @@ body{
     background-color: rgb(210, 180, 140);
 }
 
+li{
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1.8em;
+}
+
 #tittle{
     text-align: center;
     font-size: 3em;
 }
 
-#image{
-    max-width: 1000px;
-    max-height: 563px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 25px;
-}
 
 #sub-tittle{
     text-align: center;
@@ -24,24 +21,29 @@ body{
 
 #about-step{
     text-align: center;
-    font-size: 1.8em;
+    font-size: 4.0em;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #job{
-    font-size: 1.2em;
+    font-size: 1.5em;
     text-align: center;
+    padding-top: 30px;
 }
 
-#tittle-book{
+#tittle-film{
     text-align: center;
-    font-size: 1.8em;
+    font-size: 4.0em;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-#name-book{
-    font-size: 1.4em;
+#name-film{
+    font-size: 1.7em;
+    padding-top: 100px;
 }
 
-#text-book{
-    font-size: 1.2em;
+#about-film{
+    font-size: 0.8em;
 }
